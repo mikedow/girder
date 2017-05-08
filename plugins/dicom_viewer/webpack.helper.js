@@ -16,13 +16,13 @@ module.exports = function (config) {
         use: [
             {
                 loader: 'babel-loader',
-                query: {
+                options: {
                     presets: ['es2015', 'react']
                 }
             },
             {
                 loader: 'string-replace-loader',
-                query: {
+                options: {
                     multiple: [
                         {search: /test\.onlyIfWebGL/g, replace: 'test'}
                     ]
