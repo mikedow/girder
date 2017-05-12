@@ -1,0 +1,12 @@
+{
+    "plugin_nice_name": "My Girder Plugin",
+    "plugin_name": "{{ cookiecutter.plugin_nice_name.lower().replace(' ', '_') }}",
+    "plugin_description": "Do all of the Girder things.",
+    "url": "",
+    "version": "0.0.1",
+    "server_endpoints": "y",
+    "server_tests": "y",
+    "server_events": "y",
+    "client_tests": "y",
+    "client_settings": "n"
+}
